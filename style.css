@@ -1,0 +1,31 @@
+th{
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+td{
+    padding: 10px;
+    background-color: burlywood;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table-fixed{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    height: 10px;
+    overflow-y: scroll;
+    
+}
+
+thead{
+    text-align: center;
+}
+tbody{
+    height: 10px;
+    overflow: scroll;
+}
